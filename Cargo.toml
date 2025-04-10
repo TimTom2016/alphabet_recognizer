@@ -1,0 +1,5 @@
+[workspace]
+members = ["shared", "train", "web"]
+
+[workspace.dependencies]
+burn = { version = "0.16.0" }
